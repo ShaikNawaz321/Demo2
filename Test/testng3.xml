@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Mytest" parallel="tests" thread-count="10">
 <listeners>
-<listener class-name="Abc.Listeners"></lstener>
+<listener class-name="Abc.Listeners"></listener>
 </listeners>
   <parameter name="URL" value="QATesting"></parameter>
   <test  name="Regression">
